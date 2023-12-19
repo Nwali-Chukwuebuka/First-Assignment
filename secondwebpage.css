@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: darkslategray;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input, select {
+    display: block;
+    padding: 8px;
+  }

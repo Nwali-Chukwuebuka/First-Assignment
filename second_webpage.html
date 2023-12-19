@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NWALI_CHUKWUEBUKA_EMMANUEL_1</title>
+    <link rel="stylesheet" href="secondwebpage.css" />
+
+  </head>
+  <body>
+    <header role="banner">
+      <nav>
+        <ul role="list">
+          <li><a class="active" href="./firstwebpage.html">HOME</a></li>
+          <li><a href="#About">ABOUT</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <h2>Application Form</h2>
+      <p>Fill in your details</p>
+      <form action="/submit"  method="GET">
+        
+        <!--FIRST NAME-->
+         <label for="Fname"></label>First Name*
+         <input
+             type="text"
+             id="Fname"
+             name="Fname"
+             spellcheck="true"
+             placeholder="enter your first name"
+            />
+
+            <!--LAST NAME-->
+        <label for="Lname"></label>Last Name*
+        <input
+             type="text"
+             id="Lname"
+             name="Lname"
+             spellcheck="true"
+             placeholder="enter your last name"
+         />
+          <!--GENDER-->
+        <label for="gender"></label>Gender*  
+        <select name="gender" id="gender">
+            <option value="Select gender">Select gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+
+        <!--DATE OF BIRTH-->
+        <label for="DOB"></label>Date of Birth*  
+        <input type="date" id="DOB" name="DOB">
+
+        <!--EMAIL ADDRESS-->
+        <label for="email"></label>Email Address*  
+        <input type="email" name="email" placeholder="enter your email"  required>
+
+        <!--EDUCATIONAL LEVEL-->
+        <label for="education"></label>Education Level*  
+        <select name="education-level" id="education">
+            <option value="Select level of education" selected>Select level of education</option>
+            <option value="Bsc">Bsc</option>
+            <option value="Msc">Msc</option>
+            <option value="Diploma">Diploma</option>
+            <option value="Doctorate">Doctorate(Phd)</option>
+            <option value="undergraduate">Undergraduate</option>
+        </select>
+
+        <!--NATIONALITY-->
+        <label for="country"></label>Country*  
+        <select name="country" id="counrty">
+            <option value="india">India</option>
+            <option value="kenya">Kenya</option>
+            <option value="nigeria">Nigeria</option>
+            <option value="egypt">Egypt</option>
+        </select>
+
+        <!--CITY OF RESIDENCE-->
+        <label for="state"></label>State/City of Residence*  
+        <input type="text" id="state" name="state" spellcheck="true" placeholder="enter your state of residence">
+
+        <!--EMPLOYMENT STATUS-->
+        <label for="employment"></label>Employment Status*  
+        <select name="employment" id="employment">
+            <option value="select" selected>Select Employment Status</option>
+            <option value="employed">employed</option>
+            <option value="unemployed">unemployed</option>
+            <option value="self-employed">self-employed</option>
+        </select>
+
+        <!--PHONE DIAL-->
+        <label for="phone"></label>Phone Number*  
+        <input type="text" id="phone" name="phone" placeholder="08000000000" required>
+
+        <!--SCHOOL-->
+        <label for="school"></label>Choose School*  
+        <select name="school" id="school">
+            <option value="select school" selected>Select school</option>
+            <option value="school of engineering">School of engineering</option>
+            <option value="school of product">School of product</option>
+            <option value="school of creative economy">School of    creative Economy</option>
+            <option value="school of business">School of Business</option>
+        </select>
+
+        <!--COURSE OF STUDY-->
+        <label for="course"></label>Choose course of study*  
+        <select name="course" id="course">
+            <option value="select course" selected>Select Course</option>
+            <option value="front-end">Front-End Engineering</option>
+            <option value="back-end">Back-End Engineering</option>
+            <option value="data science">Data Science</option>
+            <option value="product">Product</option>
+        </select>
+
+        <!--CHANNEL-->
+        <label for="channel"></label>How did you hear about us?*  
+        <select name="channel" id="channel">
+            <option value="select channel" selected>Select Channel</option>
+            <option value="Twitter">Twitter</option>
+            <option value="Facebook">Facebook</option>
+            <option value="Instagram">Instagram</option>
+            <option value="Linkedin">Linkedin</option>
+        </select>
+
+        <!--SCHOLARSHIP/DISCOUNT CODE-->
+        <label for="discount"></label>Scholarship/Discount Code(optional)*  
+        <input type="text" id="discount" name="discount" placeholder="scholarship or student ID">
+      </form>
+    </main>
+  </body>
+</html>
