@@ -12,7 +12,7 @@
     <header role="banner">
       <nav>
         <ul role="list">
-          <li><a class="active" href="./firstwebpage.html">HOME</a></li>
+          <li><a class="active" href="./index.html">HOME</a></li>
           <li><a href="#About">ABOUT</a></li>
         </ul>
       </nav>
